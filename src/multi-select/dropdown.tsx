@@ -96,6 +96,8 @@ const Dropdown = ({
         break;
       case 32: // Space
       case 13: // Enter Key
+        console.log("testeeee");
+        break;
       case 40: // Down Arrow
         setExpanded(true);
         break;
